@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Akan Name Generator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Akan Name Generator</h1>
+        <form id="akanForm">
+            <label for="birth date">Enter your birth date:</label>
+            <input type="date" id="birthDate" name="birthDate" required>
+            <br><br>
+            <input type="submit" value="Generate Akan Name">
+            <select id="dayOfWeek">
+                <option value="sunday">Sunday</option>
+                <option value="monday">Monday</option>
+                <option value="tuesday">Tuesday</option>
+                <option value="wednesday">Wednesday</option>
+                <option value="thursday">Thursday</option>
+                <option value="friday">Friday</option>
+                <option value="saturday">Saturday</option>
+            </select>
+            
+            <label for="gender">Select your gender:</label>
+            <select id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <button type="button" onclick="generateAkanName()">Get Akan Name</button>
+            </select>
+            
+        </form>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
