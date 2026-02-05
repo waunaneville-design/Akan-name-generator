@@ -50,6 +50,9 @@ https://waunaneville-design.github.io/Akan-name-generator/
 - `methods.js`, `script.js` — present in the repo but not required for a JS-free workflow.
 
 ---
+## Ownership and contact
+Site owner name:Neville Lascelles
+contact:https://www.instagram.com/i.n3vill3/?__pwa=1#
 
 ## Contribution & License
 
